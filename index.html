@@ -55,7 +55,7 @@
                     value="2022-09-09"
                     min="2022-07-10" max="2022-14-10">
             
-                <p><button>Submit</button></p>
+                <p><button type="button"> Submit</button></p>
 
             </form>
 
@@ -68,20 +68,37 @@
 
         
 
-        <p>
-            
-        </p>
+      
             <h4><em>New Business Working Model</em></h4>
             <img
                 src="https://www.researchgate.net/profile/Shih-Chung-Kang/publication/264937550/figure/fig1/AS:295979992535041@1447578537574/Architecture-of-a-game-engine.png"
                 alt="Game Design Diagram"
                 width="600"
             />
-        <p>
+        
+            <p>
+                As a gaming company, please select your favorite video game so that new and old employees can better
+                understand each other. 
+            </p>
+            
+            <label for="Favorite Game">Choose a popular game from this list:</label>
+
+            <select name="games" id="Favorite Game" > 
+
+                <option value="">--Please choose an game--</option>
+                <option value="Terraria"></option>
+                <option value="Minecraft"></option>
+                <option value="Minesweeper"></option>
+                <option value="League of Legends"></option>
+                <option value="CSGO"></option>
+                <option value="World of Warcraft"></option>
+                <option value="Dota2"></option>
+                <option value="Valorant"></option>
+                <option value="Rocket League"></option>
+
+            </select>
             
 
-
-        </p>
         
         <fieldset>
             <legend>Select a Point Focus on For Next Meeting:</legend>
@@ -117,10 +134,27 @@
             <label for="Extra">Extra Notes for After Meeting:</label>
 
             <textarea id="Extra Notes" name="Extra"
-            rows="5" cols="33">
-                Please Enter Extra Notes If Needed...
-            </textarea>
-            <p><button>Submit</button></p>
+            rows="5" cols="33">Please Enter Extra Notes If Needed...</textarea>
+            <p><button type="button"> Submit</button></p>
+
+
+
+            <h5>Please Enter the Times that the Meeting Started and Ended</h5>
+
+            <input type="time" list="Start Time" />
+                <datalist id="Start Time">
+                <option value="12:00"></option>
+                <option value="13:00"></option>
+                <option value="14:00"></option>
+            </datalist>
+
+            <input type="time" list="End Time" />
+                <datalist id="End Time">
+                <option value="12:00"></option>
+                <option value="13:00"></option>
+                <option value="14:00"></option>
+            </datalist>
+
 
         <section>
             <label for="name">If Any New Topics Enter them Here</label>
@@ -128,20 +162,20 @@
             <input type="text" id="Topics" name="Topics" required
                     minlength="1" maxlength="32" size="10">
             
-            <p><button>Submit</button></p>
+            <p><button type="button"> Submit</button></p>
 
         </section>
 
         <details>
-            Click Here to Reveal some of the Sources I used for this Meeting Minutes
-            <summary>
+            <summary>Click Here to Reveal some of the Sources I used for this Meeting Minutes</summary>
+            <div>    
                 <ol>   
-                <a link="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</a> 
-                <a link="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</a>
-                <a link="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</a>
-                <a link="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</a>
+                <li><a link="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</a></li> 
+                <li><a link="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</a></li>
+                <li><a link="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</a></li>
+                <li><a link="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</a></li>
                 </ol>
-            </summary> 
+            </div>>
         </details>
       </footer>
 </body>
