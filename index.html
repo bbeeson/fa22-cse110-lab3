@@ -73,7 +73,7 @@
             <h2 id="New">New Business Pursuits</h2>
 
             <form>
-                <label for="Meeting_Date">Please Enter This Meetings Date:</label>
+                <label for="date">Please Enter This Meetings Date:</label>
 
                 <input type="date" id="start" name="Meeting Date"
                     value="2022-09-09"
@@ -164,14 +164,14 @@
     
             <h5>Please Enter the Times that the Meeting Started and Ended</h5>
     
-            <input type="list" list="Start_Time" />
+            <input type="time" list="Start_Time" />
                 <datalist id="Start">
                 <option value="12:00"></option>
                 <option value="13:00"></option>
                 <option value="14:00"></option>
             </datalist>
     
-            <input type="list" list="End_Time" />
+            <input type="time" list="End_Time" />
                 <datalist id="End">
                 <option value="12:00"></option>
                 <option value="13:00"></option>
@@ -180,7 +180,7 @@
     
     
         <section>
-            <label for="New">If Any New Topics Enter them Here</label>
+            <label for="Text">If Any New Topics Enter them Here</label>
     
             <input type="Text" id="Topics" name="Topics" required
                     minlength="1" maxlength="32" size="10">
