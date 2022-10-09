@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <h1><br>Bryce Beeson Meeting Minutes</br></h1>
+   <title> Bryce Beeson Meeting Minutes</title>
 </head>
 <body>
     <header>
-        <div><h2><b>Agenda For Today's Meeting</b></h2></div>
+        <div><h1><b>Agenda For Today's Meeting</b></h1></div>
         <nav>
           <ul>
             <li><a href="#Attendance">Attendance List</a></li>
@@ -20,11 +20,11 @@
       <main>
         <h2 id="Attendance">Attendance List</h2>
         <ol>
-            <li><input type="checkbox"/> Bryce</li>
-            <li><input type="checkbox"/> Kyle</li>
-            <li><input type="checkbox"/> Raymond</li>
-            <li><input type="checkbox"/> Richard</li>
-            <li><input type="checkbox"/> Jessica</li>
+            <li><input type="checkbox"/>Bryce</li>
+            <li><input type="checkbox"/>Kyle</li>
+            <li><input type="checkbox"/>Raymond</li>
+            <li><input type="checkbox"/>Richard</li>
+            <li><input type="checkbox"/>Jessica</li>
         </ol>
         <h2 id="Review">Review of Previous Meeting</h2>
 
@@ -72,11 +72,11 @@
             <h2 id="New">New Business Pursuits</h2>
 
             <form>
-                <label for="Meeting Date">Please Enter This Meetings Date:</label>
+                <label for="Meeting_Date">Please Enter This Meetings Date:</label>
 
-                <input type="date" id="start" name="Meeting Date"
+                <input type="Meeting_Date" id="start" name="Meeting Date"
                     value="2022-09-09"
-                    min="2022-07-10" max="2022-14-10">
+                    min="2022-09-07" max="2022-09-09">
             
                 <p><button type="button"> Submit</button></p>
 
@@ -104,9 +104,9 @@
                 understand each other. 
             </p>
             
-            <label for="Favorite Game">Choose a popular game from this list:</label>
+            <label for="Favorite_Game">Choose a popular game from this list:</label>
 
-            <select name="games" id="Favorite Game" > 
+            <select name="games" id="Favorite_Game" > 
 
                 <option value="">--Please choose an game--</option>
                 <option value="Terraria">Terraria</option>
@@ -127,79 +127,79 @@
             <legend>Select a Point Focus on For Next Meeting:</legend>
         
             <div>
-              <input type="radio" id="Game Design" name="Focus" value="Game Design"
+              <input type="radio" id="Game_Design" name="Focus" value="Game Design"
                      checked>
-              <label for="Game Design">Game Design</label>
+              <label for="Game_Design">Game Design</label>
             </div>
         
             <div>
-              <input type="radio" id="Physics Engine" name="Focus" value="Physics Engine">
-              <label for="Physics Engine">Physics Engine</label>
+              <input type="radio" id="Physics_Engine" name="Focus" value="Physics Engine">
+              <label for="Physics_Engine">Physics Engine</label>
             </div>
         
             <div>
-              <input type="radio" id="User Interface" name="Focus" value="User Interface">
-              <label for="User Interface">User Interface</label>
+              <input type="radio" id="User_Interface" name="Focus" value="User Interface">
+              <label for="User_Interface">User Interface</label>
             </div>
         </fieldset>
-        
-
       </main>
-      <hr />
-      <footer>
-        <h5 id="Questions">Questions for Next Time:</h5>
-        <p>
-            What can we expect from our next project in terms of workload considering our updated roles?
-            After observing the new working conditions for my role I would like an update to our tools.
-
-        </p>
-
-            <label for="Extra">Extra Notes for After Meeting:</label>
-
-            <textarea id="Extra Notes" name="Extra"
-            rows="5" cols="33">Please Enter Extra Notes If Needed...</textarea>
-            <p><button type="button"> Submit</button></p>
-
-
-
-            <h5>Please Enter the Times that the Meeting Started and Ended</h5>
-
-            <input type="time" list="Start Time" />
-                <datalist id="Start Time">
-                <option value="12:00"></option>
-                <option value="13:00"></option>
-                <option value="14:00"></option>
-            </datalist>
-
-            <input type="time" list="End Time" />
-                <datalist id="End Time">
-                <option value="12:00"></option>
-                <option value="13:00"></option>
-                <option value="14:00"></option>
-            </datalist>
-
-
-        <section>
-            <label for="name">If Any New Topics Enter them Here</label>
-
-            <input type="text" id="Topics" name="Topics" required
-                    minlength="1" maxlength="32" size="10">
-            
-            <p><button type="button"> Submit</button></p>
-
-        </section>
-
-        <details>
-            <summary>Click Here to Reveal some of the Sources I used for this Meeting Minutes</summary>
-            <div>    
-                <ol>   
-                <li><a link="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</a></li> 
-                <li><a link="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</a></li>
-                <li><a link="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</a></li>
-                <li><a link="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</a></li>
-                </ol>
-            </div>>
-        </details>
-      </footer>
+      
+    
 </body>
+<footer>
+    <hr/>
+    <h5 id="Questions">Questions for Next Time:</h5>
+    <p>
+        What can we expect from our next project in terms of workload considering our updated roles?
+        After observing the new working conditions for my role I would like an update to our tools.
+
+    </p>
+
+        <label for="Extra">Extra Notes for After Meeting:</label>
+
+        <textarea id="Extra" name="Extra"
+        rows="5" cols="33">Please Enter Extra Notes If Needed...</textarea>
+        <p><button type="button"> Submit</button></p>
+
+
+
+        <h5>Please Enter the Times that the Meeting Started and Ended</h5>
+
+        <input type="Start" list="Start_Time" />
+            <datalist id="Start">
+            <option value="12:00"></option>
+            <option value="13:00"></option>
+            <option value="14:00"></option>
+        </datalist>
+
+        <input type="End" list="End_Time" />
+            <datalist id="End">
+            <option value="12:00"></option>
+            <option value="13:00"></option>
+            <option value="14:00"></option>
+        </datalist>
+
+
+    <section>
+        <label for="New">If Any New Topics Enter them Here</label>
+
+        <input type="New" id="Topics" name="Topics" required
+                minlength="1" maxlength="32" size="10">
+        
+        <p><button type="button"> Submit</button></p>
+
+    </section>
+
+    <details>
+        <summary>Click Here to Reveal some of the Sources I used for this Meeting Minutes</summary>
+        <div>    
+            <ol>   
+            <li><link="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</li> 
+            <li><link="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</li>
+            <li><link="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</li>
+            <li><link="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</li>
+            </ol>
+        </div>>
+    </details>
+  </footer>
 </html>
