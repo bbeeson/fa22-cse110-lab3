@@ -75,7 +75,7 @@
             <form>
                 <label for="Meeting_Date">Please Enter This Meetings Date:</label>
 
-                <input type="Meeting_Date" id="start" name="Meeting Date"
+                <input type="date" id="start" name="Meeting Date"
                     value="2022-09-09"
                     min="2022-09-07" max="2022-09-09">
             
@@ -164,14 +164,14 @@
     
             <h5>Please Enter the Times that the Meeting Started and Ended</h5>
     
-            <input type="Start" list="Start_Time" />
+            <input type="list" list="Start_Time" />
                 <datalist id="Start">
                 <option value="12:00"></option>
                 <option value="13:00"></option>
                 <option value="14:00"></option>
             </datalist>
     
-            <input type="End" list="End_Time" />
+            <input type="list" list="End_Time" />
                 <datalist id="End">
                 <option value="12:00"></option>
                 <option value="13:00"></option>
@@ -182,7 +182,7 @@
         <section>
             <label for="New">If Any New Topics Enter them Here</label>
     
-            <input type="New" id="Topics" name="Topics" required
+            <input type="Text" id="Topics" name="Topics" required
                     minlength="1" maxlength="32" size="10">
             
             <p><button type="button"> Submit</button></p>
@@ -193,10 +193,10 @@
             <summary>Click Here to Reveal some of the Sources I used for this Meeting Minutes</summary>
             <div>    
                 <ol>   
-                <li><link="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</li> 
-                <li><link="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</li>
-                <li><link="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</li>
-                <li><link="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</li>
+                <li><a href="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</a></li> 
+                <li><a href="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</a></li>
+                <li><a href="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</a></li>
                 </ol>
             </div>>
         </details>
