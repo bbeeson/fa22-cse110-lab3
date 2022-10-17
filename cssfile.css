@@ -17,11 +17,12 @@ img[src]{
 
 p { 
   background-color: lightgray;
-  width: 15cm;
+  width: 25cm;
   border: 12pt solid green;
   padding: .5em;
   margin: 20px;
-  font-size: 2vw;
+  font-size: 1vw;
+  max-width: 25cm;
 }
 
 
@@ -62,14 +63,48 @@ h2#Attendance{
   font-weight: bold;
 }
 
-p.questions{
+.questions{
   border:20px solid black;
 }
 
 a:hover {
   color: #0011ff;
+  position: sticky;
 }
 
 button:active {
   box-shadow: 2px 2px 5px #000000;
+}
+
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.flex > section{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.grid {
+  position: static;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 15px;
+}
+
+.grid > section{
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
 }
