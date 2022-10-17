@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryce Beeson Meeting Minutes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+   <title> Bryce Beeson Meeting Minutes</title>
 </head>
 <body>
     <header>
-        <div>Agenda For Today's Meeting</div>
+
+        <div><h1><b>Agenda For Today's Meeting</b></h1></div>
         <nav>
           <ul>
             <li><a href="#Attendance">Attendance List</a></li>
@@ -20,39 +21,186 @@
       <main>
         <h2 id="Attendance">Attendance List</h2>
         <ol>
-          <li><input type="checkbox" /> Bryce</li>
-          <li><input type="checkbox" /> Kyle</li>
-          <li><input type="checkbox" /> Raymond</li>
-          <li><input type="checkbox" /> Richard</li>
-          <li><input type="checkbox" /> Jessica</li>
+            <li><input type="checkbox"/>Bryce</li>
+            <li><input type="checkbox"/>Kyle</li>
+            <li><input type="checkbox"/>Raymond</li>
+            <li><input type="checkbox"/>Richard</li>
+            <li><input type="checkbox"/>Jessica</li>
         </ol>
         <h2 id="Review">Review of Previous Meeting</h2>
 
-        <h3>Video and Audio from Previous Meeting</h3>
+        <h3><i>Video</i> and <i>Audio</i> from Previous Meeting</h3>
+        <h4>Video</h4>
 
-        <h4>Item 1 for Review</h4>
-        <p>
-          
-
-
-        </p>
-        <h4>Item 2 for Review</h4>
-        <p>
-          
-
-
-        </p>
-
-        <h2 id="New">New Business Pursuits</h2>
-
-
-      </main>
-      <hr />
-      <footer>
-        <h6 id="Questions">Questions for Next Time</h6>
-        <p>
+        <video width="500" controls>
+                <source src="VideoMeeting.mp4" type="video/mp4">
         
+           
+                <a href="VideoMeeting.mp4">mp4</a>
+                Download Video
+            
+            </video>
+
+
+        <h4>Audio</h4>
+            <figure>
+            <figcaption>Audio From Meeting:</figcaption>
+                <audio controls>
+                    
+                    <source src="Audio-Meeting.mp3" type="audio/mp3">
+                        <a href="Audio-Meeting.mp3">
+                            Download audio
+                        </a>
+                </audio>
+            </figure>
+             
+        <section>
+            <h4>Item 1 for <strong>Review</strong>:</h4>
+            <p>
+                Last meeting we went over how to create a better environment for everyone and there has been some progress made on that endeavor. 
+                We had a couple of role changes and that has allowed for more people to gain experience in multiple positions breaking up some monotony. However,
+                we will have to watch out for productivity drops due to more mistakes being made, so we will bring up accuracy in work next time. 
+
+            </p>
+            <h4>Item 2 for <strong>Review</strong>:</h4>
+            <p>
+                Last time a couple of queries were made about possible improvements to office life and after talking to my boss I was able to work out some new benefits 
+                for everyone. I am still in the process of of getting the paperwork together and signed by all the official channels but expect new benefits to be announced 
+                by next meeting at the latest. 
+            </p>
+        </section>
+
+            <h2 id="New">New Business Pursuits</h2>
+
+            <form>
+                <label for="start">Please Enter This Meetings Date:</label>
+
+                <input type="date" id="start" name="Meeting Date"
+                    value="2022-09-09"
+                    min="2022-09-07" max="2022-09-09">
+            
+                <p><button type="button"> Submit</button></p>
+
+            </form>
+
+            <h4><em>Diagram of Current Workload</em></h4>
+            <img
+                src="https://img.myloview.com/posters/whiteboard-vector-object-used-in-presentation-and-business-meeting-summarized-data-diagram-and-analysis-on-smart-desk-board-with-colored-charts-700-237205711.jpg"
+                alt="Diagram"
+                width="500"
+            />
+
+        
+
+      
+            <h4><em>New Business Working Model</em></h4>
+            <img
+                src="https://www.researchgate.net/profile/Shih-Chung-Kang/publication/264937550/figure/fig1/AS:295979992535041@1447578537574/Architecture-of-a-game-engine.png"
+                alt="Game Design Diagram"
+                width="600"
+            />
+        
+            <p>
+                As a gaming company, please select your favorite video game so that new and old employees can better
+                understand each other. 
+            </p>
+            
+            <label for="Favorite_Game">Choose a popular game from this list:</label>
+
+            <select name="games" id="Favorite_Game" > 
+
+                <option value="">--Please choose an game--</option>
+                <option value="Terraria">Terraria</option>
+                <option value="Minecraft">Minecraft</option>
+                <option value="Minesweeper">Minesweeper</option>
+                <option value="League of Legends">League of Legends</option>
+                <option value="CSGO">CSGO</option>
+                <option value="World of Warcraft">World of Warcraft</option>
+                <option value="Dota2">Dota2</option>
+                <option value="Valorant">Valorant</option>
+                <option value="Rocket League">Rocket League</option>
+
+            </select>
+            
+
+        
+        <fieldset>
+            <legend>Select a Point Focus on For Next Meeting:</legend>
+        
+            <div>
+              <input type="radio" id="Game_Design" name="Focus" value="Game Design"
+                     checked>
+              <label for="Game_Design">Game Design</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="Physics_Engine" name="Focus" value="Physics Engine">
+              <label for="Physics_Engine">Physics Engine</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="User_Interface" name="Focus" value="User Interface">
+              <label for="User_Interface">User Interface</label>
+            </div>
+        </fieldset>
+      </main>
+      
+      <footer>
+        <hr/>
+        <h5 id="Questions">Questions for Next Time:</h5>
+        <p>
+            What can we expect from our next project in terms of workload considering our updated roles?
+            After observing the new working conditions for my role I would like an update to our tools.
+    
         </p>
+    
+            <label for="Extra">Extra Notes for After Meeting:</label>
+    
+            <textarea id="Extra" name="Extra"
+            rows="5" cols="33">Please Enter Extra Notes If Needed...</textarea>
+            <p><button type="button"> Submit</button></p>
+    
+    
+    
+            <h5>Please Enter the Times that the Meeting Started and Ended</h5>
+    
+            <input type="time" list="Start" />
+            <datalist id="Start">
+                <option value="12:00"></option>
+                <option value="13:00"></option>
+                <option value="14:00"></option>
+            </datalist>
+    
+            <input type="time" list="End" />
+            <datalist id="End">
+                <option value="12:00"></option>
+                <option value="13:00"></option>
+                <option value="14:00"></option>
+            </datalist>
+    
+    
+        <section>
+            <label for="Topics">If Any New Topics Enter them Here</label>
+    
+            <input type="Text" id="Topics" name="Topics" required
+                    minlength="1" maxlength="32" size="10">
+            
+            <p><button type="button"> Submit</button></p>
+    
+        </section>
+    
+        <details>
+            <summary>Click Here to Reveal some of the Sources I used for this Meeting Minutes</summary>
+            <div>    
+                <ol>   
+                <li><a href="https://www.freecodecamp.org/news/html-basics-for-beginners/" >Source 1: Freecodecamp</a></li> 
+                <li><a href="https://html.spec.whatwg.org/multipage/" >Source 2: Html Living Standard</a></li>
+                <li><a href="https://www.w3schools.com/html/" >Source 3: HTML Tutorial</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary#see_also">Source 4: mdm web docs_</a></li>
+                </ol>
+            </div>>
+        </details>
       </footer>
 </body>
+
 </html>
