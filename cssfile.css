@@ -1,14 +1,16 @@
 @media screen and (max-width: 600px) {
-    img{
+    
+  img[src]{
       display: none;
     }
-      p{
-        display: none;
-      }
+    
+    p{
+      display: none;
+    }
   }
 
 /*Centers our image*/
-img{ 
+img[src]{ 
     display: block;
     margin:0 auto;
 }
@@ -23,17 +25,20 @@ p {
 }
 
 
-  div {
-    border: 0.5rem outset rgb(0, 255, 85);
-    outline: 0.5rem solid rgb(109, 225, 230);
-    box-shadow: 0 0 0 2rem rgb(141, 126, 226);
-    border-radius: 12px;
-    margin: 50px;
-    padding: 1rem;
-    outline-offset: 0.5rem;
-  }
-  
+div {
+  border: 0.5rem outset rgb(0, 255, 85);
+  outline: 0.5rem solid rgb(109, 225, 230);
+  box-shadow: 0 0 0 2rem rgb(141, 126, 226);
+  border-radius: 12px;
+  margin: 50px;
+  padding: 1rem;
+  outline-offset: 0.5rem;
+}
 
+h1{
+  text-align: center;
+  font-family: robotoblack;
+}
 
 h2{
   margin-top: 30px; 
@@ -48,6 +53,23 @@ h2{
   padding-bottom:20px;
   padding-right:15px;
   padding-left:15px;
+  text-decoration-line: underline;
+  font-family: robotoblack;
 }
 
 
+h2#Attendance{
+  font-weight: bold;
+}
+
+p.questions{
+  border:20px solid black;
+}
+
+a:hover {
+  color: #0011ff;
+}
+
+button:active {
+  box-shadow: 2px 2px 5px #000000;
+}
