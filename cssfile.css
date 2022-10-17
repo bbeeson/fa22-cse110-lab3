@@ -15,7 +15,11 @@ img[src]{
     margin:0 auto;
 }
 
-p { 
+li + li {
+  text-decoration: overline;
+}
+
+p ~ p { 
   background-color: lightgray;
   width: 25cm;
   border: 12pt solid green;
@@ -25,6 +29,9 @@ p {
   max-width: 25cm;
 }
 
+div li {
+    text-decoration: overline underline;
+}
 
 div {
   border: 0.5rem outset rgb(0, 255, 85);
@@ -58,12 +65,20 @@ h2{
   font-family: robotoblack;
 }
 
+li a {
+  margin: auto;
+  color: gray;
+}
+
+h3 > i {
+  color:grey
+}
 
 h2#Attendance{
   font-weight: bold;
 }
 
-.questions{
+*.questions{
   border:20px solid black;
 }
 
