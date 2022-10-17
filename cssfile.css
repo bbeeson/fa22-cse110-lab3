@@ -40,7 +40,6 @@ h1{
   font-family: robotoblack;
 }
 
-
 h2{
   margin-top: 30px; 
   margin-bottom: 30px;
@@ -69,4 +68,8 @@ p.questions{
 
 a:hover {
   color: #0011ff;
+}
+
+button:active {
+  box-shadow: 2px 2px 5px #000000;
 }
